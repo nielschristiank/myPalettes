@@ -13,9 +13,22 @@
 		998D1B951F1EDBD200B12A25 /* camera_access.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 998D1B931F1EDBD200B12A25 /* camera_access.xcdatamodeld */; };
 		998D1B971F1EDBD200B12A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998D1B961F1EDBD200B12A25 /* Assets.xcassets */; };
 		998D1B9A1F1EDBD200B12A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998D1B981F1EDBD200B12A25 /* LaunchScreen.storyboard */; };
+		B69A21AE4359221E2310F850 /* Pods_camera_access.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5BE474A64A22E09F79850A /* Pods_camera_access.framework */; };
+		ED04B8DB1F2A86BE0011A5E1 /* myPaletteDetailCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED04B8DA1F2A86BE0011A5E1 /* myPaletteDetailCollectionCell.swift */; };
+		ED4959061F291CE600E3F1A8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4959051F291CE600E3F1A8 /* SwiftyJSON.framework */; };
+		ED4959081F291D0600E3F1A8 /* Pods_camera_access.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4959071F291D0600E3F1A8 /* Pods_camera_access.framework */; };
+		ED49590A1F291D0A00E3F1A8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4959091F291D0A00E3F1A8 /* Bolts.framework */; };
+		ED49590C1F291D0F00E3F1A8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED49590B1F291D0F00E3F1A8 /* Parse.framework */; };
+		ED49590E1F29447700E3F1A8 /* myPalettesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49590D1F29447700E3F1A8 /* myPalettesTableViewCell.swift */; };
+		ED6CA7291F1F058F00F697BA /* myPalettesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA7281F1F058F00F697BA /* myPalettesTableViewController.swift */; };
+		ED9CED1A1F29A9560003FAC1 /* myPaletteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CED191F29A9560003FAC1 /* myPaletteDetailViewController.swift */; };
+		ED9CED1C1F29C4790003FAC1 /* myPaletteDetailDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CED1B1F29C4790003FAC1 /* myPaletteDetailDelegate.swift */; };
+		ED9CED1E1F29CA7E0003FAC1 /* ColorAPICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CED1D1F29CA7E0003FAC1 /* ColorAPICalls.swift */; };
+		EDBB048C1F27EAEC00C412B4 /* MOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB048B1F27EAEC00C412B4 /* MOC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		407EEC94A6D2D3E675DE3424 /* Pods-camera access.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camera access.debug.xcconfig"; path = "Pods/Target Support Files/Pods-camera access/Pods-camera access.debug.xcconfig"; sourceTree = "<group>"; };
 		998D1B891F1EDBD200B12A25 /* camera access.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "camera access.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		998D1B8C1F1EDBD200B12A25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		998D1B8E1F1EDBD200B12A25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +37,22 @@
 		998D1B961F1EDBD200B12A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		998D1B991F1EDBD200B12A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		998D1B9B1F1EDBD200B12A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92B6F9BC59ACA8CA36E82CF /* Pods-camera access.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camera access.release.xcconfig"; path = "Pods/Target Support Files/Pods-camera access/Pods-camera access.release.xcconfig"; sourceTree = "<group>"; };
+		BF5BE474A64A22E09F79850A /* Pods_camera_access.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_camera_access.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED04B8DA1F2A86BE0011A5E1 /* myPaletteDetailCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPaletteDetailCollectionCell.swift; sourceTree = "<group>"; };
+		ED4959011F291CB600E3F1A8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Parse/Parse.framework"; sourceTree = "<group>"; };
+		ED4959031F291CBB00E3F1A8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Pods/../build/Debug-iphoneos/Bolts/Bolts.framework"; sourceTree = "<group>"; };
+		ED4959051F291CE600E3F1A8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/camera_access-gmhonnvqzyuohqbyclbefchhmnli/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		ED4959071F291D0600E3F1A8 /* Pods_camera_access.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_camera_access.framework; path = "Pods/../build/Debug-iphoneos/Pods_camera_access.framework"; sourceTree = "<group>"; };
+		ED4959091F291D0A00E3F1A8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Pods/../build/Debug-iphoneos/Bolts/Bolts.framework"; sourceTree = "<group>"; };
+		ED49590B1F291D0F00E3F1A8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Parse/Parse.framework"; sourceTree = "<group>"; };
+		ED49590D1F29447700E3F1A8 /* myPalettesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPalettesTableViewCell.swift; sourceTree = "<group>"; };
+		ED6CA7281F1F058F00F697BA /* myPalettesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPalettesTableViewController.swift; sourceTree = "<group>"; };
+		ED9CED191F29A9560003FAC1 /* myPaletteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPaletteDetailViewController.swift; sourceTree = "<group>"; };
+		ED9CED1B1F29C4790003FAC1 /* myPaletteDetailDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPaletteDetailDelegate.swift; sourceTree = "<group>"; };
+		ED9CED1D1F29CA7E0003FAC1 /* ColorAPICalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorAPICalls.swift; sourceTree = "<group>"; };
+		EDBB048B1F27EAEC00C412B4 /* MOC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOC.swift; sourceTree = "<group>"; };
+		EDEBC3581F1F0ED000861523 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/camera_access-fmykecxyapmyppatxlrnvbpmtdto/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED49590C1F291D0F00E3F1A8 /* Parse.framework in Frameworks */,
+				ED49590A1F291D0A00E3F1A8 /* Bolts.framework in Frameworks */,
+				ED4959081F291D0600E3F1A8 /* Pods_camera_access.framework in Frameworks */,
+				ED4959061F291CE600E3F1A8 /* SwiftyJSON.framework in Frameworks */,
+				B69A21AE4359221E2310F850 /* Pods_camera_access.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +76,8 @@
 			children = (
 				998D1B8B1F1EDBD200B12A25 /* camera access */,
 				998D1B8A1F1EDBD200B12A25 /* Products */,
+				B89F3FC252E490E83CD4512E /* Pods */,
+				E605C3E9DB02780AC12ECFBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +94,44 @@
 			children = (
 				998D1B8C1F1EDBD200B12A25 /* AppDelegate.swift */,
 				998D1B8E1F1EDBD200B12A25 /* ViewController.swift */,
+				EDBB048B1F27EAEC00C412B4 /* MOC.swift */,
 				998D1B901F1EDBD200B12A25 /* Main.storyboard */,
+				ED6CA7281F1F058F00F697BA /* myPalettesTableViewController.swift */,
+				ED49590D1F29447700E3F1A8 /* myPalettesTableViewCell.swift */,
+				ED9CED191F29A9560003FAC1 /* myPaletteDetailViewController.swift */,
+				ED9CED1B1F29C4790003FAC1 /* myPaletteDetailDelegate.swift */,
+				ED04B8DA1F2A86BE0011A5E1 /* myPaletteDetailCollectionCell.swift */,
+				ED9CED1D1F29CA7E0003FAC1 /* ColorAPICalls.swift */,
 				998D1B961F1EDBD200B12A25 /* Assets.xcassets */,
 				998D1B981F1EDBD200B12A25 /* LaunchScreen.storyboard */,
 				998D1B9B1F1EDBD200B12A25 /* Info.plist */,
 				998D1B931F1EDBD200B12A25 /* camera_access.xcdatamodeld */,
 			);
 			path = "camera access";
+			sourceTree = "<group>";
+		};
+		B89F3FC252E490E83CD4512E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				407EEC94A6D2D3E675DE3424 /* Pods-camera access.debug.xcconfig */,
+				B92B6F9BC59ACA8CA36E82CF /* Pods-camera access.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E605C3E9DB02780AC12ECFBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED49590B1F291D0F00E3F1A8 /* Parse.framework */,
+				ED4959091F291D0A00E3F1A8 /* Bolts.framework */,
+				ED4959071F291D0600E3F1A8 /* Pods_camera_access.framework */,
+				ED4959051F291CE600E3F1A8 /* SwiftyJSON.framework */,
+				ED4959031F291CBB00E3F1A8 /* Bolts.framework */,
+				ED4959011F291CB600E3F1A8 /* Parse.framework */,
+				EDEBC3581F1F0ED000861523 /* SwiftyJSON.framework */,
+				BF5BE474A64A22E09F79850A /* Pods_camera_access.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 998D1B9E1F1EDBD200B12A25 /* Build configuration list for PBXNativeTarget "camera access" */;
 			buildPhases = (
+				7640E47FD78D06355B048C65 /* [CP] Check Pods Manifest.lock */,
 				998D1B851F1EDBD200B12A25 /* Sources */,
 				998D1B861F1EDBD200B12A25 /* Frameworks */,
 				998D1B871F1EDBD200B12A25 /* Resources */,
+				E2E704877D0AA0AE2D50CB34 /* [CP] Embed Pods Frameworks */,
+				D498858CD49697D32948E328 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +169,7 @@
 				TargetAttributes = {
 					998D1B881F1EDBD200B12A25 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B63AU5Y3LP;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -134,13 +205,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7640E47FD78D06355B048C65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D498858CD49697D32948E328 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-camera access/Pods-camera access-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2E704877D0AA0AE2D50CB34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-camera access/Pods-camera access-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		998D1B851F1EDBD200B12A25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9CED1E1F29CA7E0003FAC1 /* ColorAPICalls.swift in Sources */,
 				998D1B951F1EDBD200B12A25 /* camera_access.xcdatamodeld in Sources */,
+				EDBB048C1F27EAEC00C412B4 /* MOC.swift in Sources */,
+				ED9CED1A1F29A9560003FAC1 /* myPaletteDetailViewController.swift in Sources */,
+				ED04B8DB1F2A86BE0011A5E1 /* myPaletteDetailCollectionCell.swift in Sources */,
+				ED9CED1C1F29C4790003FAC1 /* myPaletteDetailDelegate.swift in Sources */,
+				ED6CA7291F1F058F00F697BA /* myPalettesTableViewController.swift in Sources */,
 				998D1B8F1F1EDBD200B12A25 /* ViewController.swift in Sources */,
+				ED49590E1F29447700E3F1A8 /* myPalettesTableViewCell.swift in Sources */,
 				998D1B8D1F1EDBD200B12A25 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,25 +388,47 @@
 		};
 		998D1B9F1F1EDBD200B12A25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407EEC94A6D2D3E675DE3424 /* Pods-camera access.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B63AU5Y3LP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Parse",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Bolts",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "camera access/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anessaarnold.camera-access";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nielschristian.camera-access";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		998D1BA01F1EDBD200B12A25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92B6F9BC59ACA8CA36E82CF /* Pods-camera access.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B63AU5Y3LP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Parse",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Bolts",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "camera access/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anessaarnold.camera-access";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nielschristian.camera-access";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -303,6 +451,7 @@
 				998D1BA01F1EDBD200B12A25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Color" representedClassName="Color" syncable="YES" codeGenerationType="class">
+        <attribute name="blue" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="green" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="red" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="palette" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Palette" inverseName="colors" inverseEntity="Palette" syncable="YES"/>
+    </entity>
+    <entity name="Palette" representedClassName="Palette" syncable="YES" codeGenerationType="class">
+        <attribute name="paletteTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="colors" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Color" inverseName="palette" inverseEntity="Color" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Color" positionX="468" positionY="75" width="128" height="105"/>
+        <element name="Palette" positionX="-18" positionY="27" width="128" height="90"/>
+    </elements>
 </model>

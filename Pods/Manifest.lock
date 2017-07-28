@@ -1,0 +1,18 @@
+PODS:
+  - Bolts/Tasks (1.8.4)
+  - Parse (1.15.1):
+    - Bolts/Tasks (~> 1.8)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Parse
+  - SwiftyJSON (~> 3.1.4)
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Parse: b7a77b20b8a6dede8058da1e2b339593578ce158
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 43b477bbeac96ac8fdad9f6f515e1bc1f4b18263
+
+COCOAPODS: 1.2.1
